@@ -1,5 +1,17 @@
 # Elasticsearch MCP Server
 
+## TL;DR - How to use
+### Build
+   ```bash
+   npm run build
+   ```
+### Run
+  ```bash
+   node ./dist/index.js
+   ```
+
+---
+
 This repository contains experimental features intended for research and evaluation and are not production-ready.
 
 Connect to your Elasticsearch data directly from any MCP Client (like Claude Desktop) using the Model Context Protocol (MCP).
