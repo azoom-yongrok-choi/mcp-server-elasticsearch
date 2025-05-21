@@ -10,6 +10,7 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { Client, estypes, ClientOptions } from "@elastic/elasticsearch";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import fs from "fs";
+import "dotenv/config";
 
 // Configuration schema with auth options
 const ConfigSchema = z
